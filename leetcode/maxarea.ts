@@ -1,3 +1,5 @@
+max_area([3, 4, 1, 2, 2, 4, 1, 3, 2]);
+
 function max_area(heights: number[]): number {
   let left = 0;
   let right = heights.length - 1;
@@ -31,4 +33,8 @@ function max_area(heights: number[]): number {
   return maxArea;
 }
 
-max_area([3, 4, 1, 2, 2, 4, 1, 3, 2]);
+const tryagain = (): void => {};
+
+
+
+
